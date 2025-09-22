@@ -25,13 +25,16 @@ The project simulates features of real social platforms (like Facebook & LinkedI
 Code-of-Delhi/
 │
 ├── data/
-│ ├── users.json # Raw user data
-│ ├── cleaned_data.json # Cleaned and structured data
+│   ├── data1.json              # Raw user data
+│   ├── data2.json              # Cleaned/modified user data
 │
-├── main.py # Entry point of the project
-├── utils.py # Helper functions (data loading, etc.)
-├── requirements.txt # Dependencies (if any)
-└── README.md # Project documentation
+├── 01_introduction.py          # Introduction and setup
+├── 02_data_cleaning.py         # Data cleaning and preprocessing
+├── 03_find_people.py           # Friend suggestion logic
+├── 04_pages_recommendation.py  # Page recommendation system
+│
+├── requirements.txt            # Dependencies (if any)
+└── README.md                   # Project documentation
 
 ---
 
@@ -43,7 +46,7 @@ Code-of-Delhi/
    cd Code-of-Delhi
 2.Run the project
 
-python main.py
+python file
 
 
 3.Explore features
