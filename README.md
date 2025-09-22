@@ -35,7 +35,7 @@ Code-of-Delhi/
 
 ---
 
-## 🚀How to Run
+## How to Run
 
 1. **Clone the repository**
    ```bash
